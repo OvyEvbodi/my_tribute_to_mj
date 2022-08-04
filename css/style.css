@@ -1,0 +1,163 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color: #645a5a;
+}
+.header{
+    background-color: #000000;
+    text-align:right;
+    border: 2px solid black;
+    
+}
+.header img{
+    margin-left: auto;
+    margin-right: 0;
+    height:auto;
+    width:50%;
+    max-width: 100%;
+}
+#title{
+    color: #8a1d1d;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 5%;
+    top:18%;
+    background-color: #817777;
+    width: 50%;
+    padding:16px 0;
+    text-align: center;
+}
+#main{
+    width:100vw;
+    background-color: rgb(236, 234, 234);
+    font-size:1em;
+    color: #201d1d;
+    line-height: 1.2;
+}
+#content_body{
+    
+    padding-left:2rem;
+    padding-right:2rem;
+    margin-top: 2rem;  
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    color: #665f5f;
+}
+li{
+    margin:16px 0;
+}
+#image{
+    width:400px;
+    max-width: 80%;
+    height:auto;
+}
+#tribute-info {
+    list-style-type:none;
+    max-width:550px;
+    margin:0 auto;
+    line-height: 1.6;
+}
+/*@media (max-width:400px){
+    #tribute-info {
+
+    }
+}*/
+#card_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+#card_section h2{
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+.card_container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    width:100vw;
+    margin-left: auto;
+    margin-right:auto;
+    padding-left: 0;
+    background-color:#501717;
+}
+.card{
+    margin:1em 0;
+    width:200px;
+    padding:1rem;
+    text-align: center;
+    background-color: #501717;
+    color: rgb(226, 223, 223);
+    text-transform: capitalize;
+}
+.card ul{
+
+list-style-type:none;
+}
+.card_img{
+    width:100px;
+    max-width: 50%;
+    height:auto;
+}
+#learn_more{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding:0 16px;
+}
+a{
+    list-style: none;
+    color: #631a1a;
+}
+a:hover{
+    color:#d85555;
+    transform: scale(1.1);
+}
+#footer{
+    font-weight: 800;
+    color: rgb(94, 33, 33);
+    padding: 2rem;
+    margin:20px 0 0 0;
+    width:100vw;
+    
+}
+
+blockquote{
+    margin-top: 1rem;
+    font-style: italic;
+}
+fieldset li{
+    margin:5px 0;
+}
+fieldset ul{
+    margin: auto;
+    padding-inline-start: 0;
+}
+legend{
+    color:#dbd8d8;
+    font-weight: 600;
+    font-size: 1em;
+}
+footer{
+    background-image: url("https://images.thebrag.com/tio/uploads/2017/07/Screen-Shot-2017-07-12-at-10.55.22-am-768x457.jpg");
+    background-attachment:fixed;
+    background-color: rgba(204, 204, 204, 0.658);
+    background-position: cover;
+}
+@media (max-width:800px){
+    #title{
+    font-size: 0.7rem;
+    position:absolute;
+    left: 5%;
+    top:7%;
+    padding:7px 0;
+    }
+}
